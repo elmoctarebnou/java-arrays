@@ -1,5 +1,6 @@
 public class TryItOut {
     public static void main(String[] args){
+        // Array instantiation
         int[] numbers;
         numbers = new int[8];
         System.out.println(numbers[0]);
@@ -18,5 +19,9 @@ public class TryItOut {
         int sum = numbers[2] + numbers[4];
         System.out.println(sum);
         System.out.println(numbers.length);
+        //Array literal
+        String[] players = {"Messi", "Suarez", "Neymare", "Iniesta", "Xavie", "Busquets"};
+        System.out.println(players[3]);
+        
     }
 }
